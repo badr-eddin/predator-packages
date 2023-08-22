@@ -97,7 +97,7 @@
         "version": "0.0.1",
         "path": "%p/clients/xenomorph.0.0.1.c"
       },
-      "$2-xenomorphwin": {
+      "$2-xenomorph.win": {
         "version": "0.0.1",
         "path": "%p/clients/xenomorphwin.0.0.1.c"
       }
