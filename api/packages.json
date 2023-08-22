@@ -93,11 +93,11 @@
       }
     },
     "clients": {
-      "$1-xenomorph": {
+      "$1-xenomorph.1": {
         "version": "0.0.1",
         "path": "%p/clients/xenomorph.0.0.1.c"
       },
-      "$2-xenomorph.win": {
+      "$2-xenomorph.win.1": {
         "version": "0.0.1",
         "path": "%p/clients/xenomorphwin.0.0.1.c"
       }
