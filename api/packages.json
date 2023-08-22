@@ -1,0 +1,112 @@
+{
+  "linux": {
+    "plugins": {
+      "v0.1": {
+        "console": {
+          "path": "%p/plugins/v0.1/console.pesp",
+          "deps": [
+            "%p/modules/v0.1/consolex.pesm",
+            "%p/modules/v0.1/consolelx.pesm"
+          ]
+        },
+        "crawler": {
+          "path": "%p/plugins/v0.1/crawler.pesp",
+          "deps": [
+            "%p/modules/v0.1/crawlerx.pesm"
+          ]
+        },
+        "duck":{
+          "path": "%p/plugins/v0.1/duck.pesp",
+          "deps": [
+            "%p/modules/v0.1/duckx.pesm"
+          ]
+        },
+        "filehub": {
+          "path": "%p/plugins/v0.1/filehub.pesp",
+          "deps": [
+            "%p/modules/v0.1/filehubx.pesm",
+            "%p/modules/v0.1/filehubwx.pesm"
+          ]
+        },
+        "pacman":{
+          "path": "%p/plugins/v0.1/pacman.pesp",
+          "deps": [
+            "%p/modules/v0.1/pacmanx.pesm"
+          ]
+        },
+        "papyrus": {
+          "path": "%p/plugins/v0.1/papyrus.pesp",
+          "deps": [
+            "%p/modules/v0.1/papyrusx.pesm",
+            "%p/modules/v0.1/editorx.pesm"
+          ]
+        },
+        "pxfd":{
+          "path": "%p/plugins/v0.1/pxfd.pesp",
+          "deps": [
+            "%p/modules/v0.1/pxfdx.pesm"
+          ]
+        },
+        "pxmb": {
+          "path": "%p/plugins/v0.1/pxmb.pesp",
+          "deps": [
+            "%p/modules/v0.1/pxmbx.pesm"
+          ]
+        },
+        "queen":{
+          "path": "%p/plugins/v0.1/queen.pesp",
+          "deps": [
+            "%p/modules/v0.1/queenx.pesm",
+            "%p/modules/v0.1/queenwx.pesm"
+          ]
+        },
+        "settings": {
+          "path": "%p/plugins/v0.1/settings.pesp",
+          "deps": [
+            "%p/modules/v0.1/settingsx.pesm"
+          ]
+        },
+        "vision":{
+          "path": "%p/plugins/v0.1/vision.pesp",
+          "deps": [
+            "%p/modules/v0.1/visionx.pesm"
+          ]
+        },
+        "walter": {
+          "path": "%p/plugins/v0.1/walter.pesp",
+          "deps": [
+            "%p/modules/v0.1/walterx.pesm"
+          ]
+        },
+        "xenolens":{
+          "path": "%p/plugins/v0.1/xenolens.pesp",
+          "deps": [
+            "%p/modules/v0.1/xenolensx.pesm"
+          ]
+        },
+        "zip": {
+          "path": "%p/plugins/v0.1/zip.pesp",
+          "deps": [
+            "%p/modules/v0.1/zipx.pesm"
+          ]
+        }
+      }
+    },
+    "clients": {
+      "$1-xenomorph": {
+        "version": "0.0.1",
+        "path": "%p/clients/xenomorph.0.0.1.c"
+      },
+      "$2-xenomorphwin": {
+        "version": "0.0.1",
+        "path": "%p/clients/xenomorphwin.0.0.1.c"
+      }
+    },
+    "themes": {
+      "Argon": {
+        "version": "0.0.1",
+        "path": "%p/themes/libart.so"
+      }
+    }
+  }
+}
