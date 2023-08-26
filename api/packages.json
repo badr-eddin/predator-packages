@@ -90,6 +90,15 @@
             "%p/modules/v0.1/zipx.pesm"
           ]
         }
+      },
+      "v0.2": {
+        "console": {
+          "path": "%p/plugins/v0.2/console.pesp",
+          "deps": [
+            "%p/modules/v0.2/consolex.pesm",
+            "%p/modules/v0.2/consolelx.pesm"
+          ]
+        }
       }
     },
     "clients": {
