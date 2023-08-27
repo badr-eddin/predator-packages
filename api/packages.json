@@ -98,6 +98,13 @@
             "%p/modules/v0.2/consolex.pesm",
             "%p/modules/v0.2/consolelx.pesm"
           ]
+        },
+        "queen":{
+          "path": "%p/plugins/v0.2/queen.pesp",
+          "deps": [
+            "%p/modules/v0.2/queenx.pesm",
+            "%p/modules/v0.2/queenwx.pesm"
+          ]
         }
       }
     },
