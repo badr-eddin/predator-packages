@@ -105,6 +105,12 @@
             "%p/modules/v0.2/queenx.pesm",
             "%p/modules/v0.2/queenwx.pesm"
           ]
+        },
+        "pxmb": {
+          "path": "%p/plugins/v0.2/pxmb.pesp",
+          "deps": [
+            "%p/modules/v0.2/pxmbx.pesm"
+          ]
         }
       }
     },
