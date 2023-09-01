@@ -127,11 +127,11 @@
     "themes": {
       "Argon": {
         "version": "0.0.1",
-        "path": "%p/themes/libart.so"
+        "path": "%p/themes/libart.thm"
       },
       "Mint": {
         "version": "0.0.1",
-        "path": "%p/themes/libmnt.so"
+        "path": "%p/themes/libmnt.thm"
       }
     }
   }
